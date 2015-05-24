@@ -14,7 +14,7 @@ Avro is a compact serialization system.
  
  This sample mapreduce application reads a parquet file with avro object model Person and find the number of men in each     country. We are using Predicate pushdown to filter records on the basis of gender to include only men and Projection pushdown to reduce I/O.
  
- Preparation to run the Job:- 
+#Preparation to run the Job:- 
   1. Build the project by using maven package to get the jar file 'parquet-tut-0.0.1-SNAPSHOT-jar-with-dependencies.jar'
   2. Generate sample dataset for the job by using nk.parquet.io.Tester class by providing the path and number of records to       generate as command-line arguments. This will create a parquet file on given path. This file you will use as input for       running the job. You can decide this number depending on how large file you need for testing.
   3. export HADOOP_CLASSPATH=parquet-tut-0.0.1-SNAPSHOT-jar-with-dependencies
