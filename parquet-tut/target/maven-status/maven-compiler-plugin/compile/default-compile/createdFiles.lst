@@ -1,0 +1,15 @@
+nk\parquet\mapreduce\AgeGroupCounterJob$MR.class
+nk\parquet\mapreduce\AgeGroupCounterJob.class
+nk\parquet_tut\avro\Address.class
+nk\parquet_tut\avro\Address$Builder.class
+nk\parquet\mapreduce\AgeGroupCounterPushdownJob$GenderFilter.class
+nk\parquet\mapreduce\AgeGroupCounterPushdownJob$MM.class
+nk\parquet\mapreduce\AgeGroupCounterPushdownJob$MR.class
+nk\parquet_tut\avro\Person$Builder.class
+nk\parquet_tut\avro\Address$1.class
+nk\parquet\mapreduce\AgeGroupCounterPushdownJob.class
+nk\parquet_tut\avro\Person$1.class
+nk\parquet\io\MParquetWriter.class
+nk\parquet\io\Tester.class
+nk\parquet_tut\avro\Person.class
+nk\parquet\mapreduce\AgeGroupCounterJob$MM.class

@@ -1,0 +1,22 @@
+{
+	"namespace":"nk.parquet_tut.avro",
+	"name":"Person",
+	"type":"record",
+	"fields":[
+		{"name":"firstName","type":"string"},
+		{"name":"lastName","type":"string"},
+		{"name":"dob","type":"string"},
+		{"name":"sex","type":"string"},
+		{"name":"address","type":{
+			"type":"record",
+			"name":"Address",
+			"fields":[
+				{"name":"street","type":"string"},
+				{"name":"city","type":"string"},
+				{"name":"state","type":"string"},
+				{"name":"country","type":"string"},
+				{"name":"zip","type":"int"}
+			]
+		}}
+	]
+}
