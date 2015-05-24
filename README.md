@@ -20,7 +20,7 @@ Avro is a compact serialization system.
   3. export HADOOP_CLASSPATH=parquet-tut-0.0.1-SNAPSHOT-jar-with-dependencies
   4. hadoop nk.parquet.mapreduce.nk.parquet.mapreduce.AgeGroupCounterPushdownJob generatedParquetFilePath dstPath
 
- Possible issues:-
+#Possible issues:-
  Parquet is a memory intensive storage format. You may get Heap spache error if your map/reduce task jvm does not have sufficient memory. In case you get this issue try increasing the task jvm heap size. In my case I used 300mb of heap space for both map & reduce jvms using the following:
  hadoop nk.parquet.mapreduce.nk.parquet.mapreduce.AgeGroupCounterPushdownJob -D mapreduce.map.java.opts=-Xmx300m -D mapreduce.reduce.java.opts=-Xmx300m generatedParquetFilePath dstPath
 
